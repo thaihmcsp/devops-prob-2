@@ -1,0 +1,4 @@
+dotnet/bin/
+dotnet/obj/
+nodejs/node_modules/
+nodejs/.env
