@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: nodejs-app
-          image: thaihmcsp/nodejs-multi-env:{tag}
+          image: thaihmcsp/nodejs-multi-env:caee1958752ee892f1572ae65720661274fd6242
           command: ["nodejs", "app.js"]
           ports:
             - name: http
