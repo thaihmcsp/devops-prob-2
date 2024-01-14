@@ -21,7 +21,7 @@ spec:
           command: ["node", "app.js"]
           ports:
             - name: http
-              containerPort: 80
+              containerPort: 3000
           livenessProbe:
             exec:
               command:
